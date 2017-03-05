@@ -1,0 +1,107 @@
+﻿<!-- main app container -->
+<!--<div class="jumbotron">-->
+<!--<div class="container">-->
+<!--<div class="col-sm-8 col-sm-offset-2">-->
+<!--<alert></alert>-->
+<!--<router-outlet></router-outlet>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+
+<div id="outer-wrapper">
+    <div id="main">
+        <div class="main-header navbar navbar-default">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-xs-6 user-area">
+                        <ul class="nav navbar-nav navbar-right user-nav">
+                            <li class="profile_menu">
+                                <a href="#">
+                                    <!--<img src="img/user-avatar.jpg" alt="John black">-->
+                                    <span>My Website</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--<div class="main-content container-fluid">-->
+            <!--<div class="row">-->
+                <!--<div class="breadcrumb">-->
+                    <nav class="navbar navbar-light bg-faded">
+                        <div class="container-fluid">
+                            <button
+                                    class="navbar-toggler hidden-sm-up"
+                                    type="button"
+                                    data-toggle="collapse"
+                                    data-target="#exCollapsingNavbar2">
+                                &#9776;
+                            </button>
+                            <div class="collapse navbar-toggleable-xs" id="exCollapsingNavbar2">
+                                <a class="navbar-brand" href="#">Website</a>
+                                <ul class="nav navbar-nav">
+                                    <li class="nav-item active">
+                                        <a class="nav-link" href="#">
+                                            Home
+                                            <span class="sr-only">(current)</span>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item" dropdown>
+                                        <a class="nav-link" href="#" dropdownToggle>
+                                            Dropdown
+                                            <span class="caret"></span>
+                                        </a>
+                                        <ul class="dropdown-menu" role="menu" aria-labelledby="single-button">
+                                            <li role="menuitem"><a class="dropdown-item" href="#">Action</a></li>
+                                            <li role="menuitem"><a class="dropdown-item" href="#">Another action</a></li>
+                                            <li class="divider dropdown-divider"></li>
+                                            <li role="menuitem"><a class="dropdown-item" href="#">Separated link</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                                <form class="form-inline pull-xs-right">
+                                    <input class="form-control" type="text" placeholder="Search">
+                                    <button class="btn btn-secondary" type="submit">Search</button>
+                                </form>
+                            </div>
+                        </div>
+                    </nav>
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
+
+        <!--<div class="main-content container-fluid">-->
+            <!--<div class="row">-->
+                <!--<div class="breadcrumb">-->
+                    <!--<ul>-->
+                        <!--<li class="active">-->
+                            <!--<span>Navigation Bar</span>-->
+                        <!--</li>-->
+                    <!--</ul>-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
+
+        <div ng-view>
+            <div class="jumbotron">
+                <div class="container">
+                    <div class="col-sm-8 col-sm-offset-2">
+                        <alert></alert>
+                        <router-outlet></router-outlet>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- credits -->
+    <!--<div class="text-center">-->
+    <!--<p>-->
+    <!--<a href="http://jasonwatmore.com/post/2016/09/29/angular-2-user-registration-and-login-example-tutorial" target="_top">Angular 2 User Registration and Login Example & Tutorial</a>-->
+    <!--</p>-->
+    <!--<p>-->
+    <!--<a href="http://jasonwatmore.com" target="_top">JasonWatmore.com</a>-->
+    <!--</p>-->
+    <!--</div>-->
